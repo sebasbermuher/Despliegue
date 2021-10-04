@@ -1,0 +1,5 @@
+Abrir contenedor de docker
+sudo docker exec -it u1 /bin/bash
+
+mysl
+usuario root contraseña root
