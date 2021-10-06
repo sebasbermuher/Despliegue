@@ -3,3 +3,7 @@ sudo docker exec -it u1 /bin/bash
 
 mysl
 usuario root contraseña root
+
+
+Bind mount:
+sudo docker run -d --name c1 -p 8181:80 -v ${PWD}/saludo:/usr/local/apache2/htdocs httpd
